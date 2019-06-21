@@ -1,0 +1,689 @@
+@font-face {
+  font-family: Blender Pro;
+  src: url("BlenderPro.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.mobile-header{
+  display: none;
+}
+
+.menu-popup {
+  display: none;
+}
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Blender Pro", Roboto;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 1s;
+  z-index: 1;
+}
+
+.logo-image {
+  height: 50px;
+}
+
+header > ul {
+  display: flex;
+  color: white;
+  margin-left: 150px;
+}
+
+ul > li {
+  list-style-type: none;
+  color: white;
+  margin-left: 30px;
+}
+
+li > a,
+.features_button > a,
+.language_button > a,
+.signup_button > a {
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.language_button {
+  border: solid 2px white;
+  color: white;
+  border-radius: 2px;
+  padding: 1px 10px;
+  position: absolute;
+  right: 15px;
+}
+
+.language_button > a {
+  font-size: 1rem;
+}
+
+.signup_button {
+  padding: 10px 40px;
+  background-color: rgb(62, 147, 199);
+  border-radius: 2px;
+}
+
+.screen {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 80vw;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  background: url("main_background.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+}
+
+.main-container {
+  margin: auto 100px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.main-buttons {
+  display: flex;
+  margin-top: 60 px;
+}
+
+.features_header,
+.work_header,
+.why_header,
+.prices_header,
+.font,
+li > *,
+#social {
+  font-family: 'Blender Pro','Roboto';
+  letter-spacing: 0.1rem;
+}
+
+#main_title,
+#main_title2,
+#main_description {
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#main_description {
+  font-size: 1.5rem;
+  width: 500px;
+  font-weight: 100;
+}
+
+#alzagro_cropler,
+#testimonials_title {
+  color: rgb(161, 245, 253);
+  margin-bottom: 20px;
+}
+
+.signup_button_main {
+  background: rgb(62, 147, 199);
+  margin-right: 30px;
+}
+
+.content > form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.features_button {
+  background: rgb(102, 111, 116);
+  padding: 10px 40px;
+  border-radius: 2px;
+}
+
+.testimonials {
+  background: rgb(40, 40, 40);
+}
+
+.features_content {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.why_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.features_table {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features_image {
+  width: 40vw;
+  background: url("features_background.png") no-repeat center;
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.feature_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.features_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.features_header {
+  font-size: 1.25rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.features_article {
+  font-size: 1rem;
+  margin-right: 80px;
+  margin-top: 2rem;
+  color: rgb(102, 111, 116);
+}
+
+.accurate_icon {
+  background: url("accurate.svg") no-repeat center;
+  background-size: 70%;
+}
+
+.analytics_icon {
+  background: url("analytics.svg") no-repeat center;
+  background-size: 70%;
+}
+
+.infrared_icon {
+  background: url("infrared.svg") no-repeat center;
+  background-size: 70%;
+}
+
+.map_icon {
+  background: url("map.svg") no-repeat center;
+  background-size: 70%;
+}
+
+.work_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work_container {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.work_icon {
+  width: 80%;
+  height: 200px;
+}
+
+.work_header {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.work_article {
+  font-size: 1.25rem;
+  margin-right: 80px;
+  margin-top: 2rem;
+  color: rgb(102, 111, 116);
+}
+
+.easy_icon {
+  background: url("easy.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.confirm_icon {
+  background: url("confirm.svg") no-repeat center;
+  background-size: 80% auto;
+}
+
+.automatic_icon {
+  background: url("automatic.svg") no-repeat center;
+  background-size: 70% auto;
+}
+
+.immediate_icon {
+  background: url("immediate.svg") no-repeat center;
+  background-size: 70% auto;
+}
+
+.title_container {
+  justify-self: center;
+  width: 100%;
+  text-align: center;
+  text-align: center;
+}
+
+.title_container > h3 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: rgb(0, 192, 192);
+  margin-bottom: 2rem;
+}
+
+#why_article {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+}
+
+#why_title {
+  margin: auto;
+  max-width: 400px;
+}
+
+.why_container {
+  margin-top: 120px;
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.why_item {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#signup_success {
+  height: 280;
+  font-size: 2rem;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.why_icon {
+  width: 100px;
+  height: 100px;
+}
+
+.quality_icon {
+  background: url("quality.svg") no-repeat center;
+  background-size: 50%;
+}
+
+.seconds_icon {
+  background: url("seconds.svg") no-repeat center;
+  background-size: 50%;
+}
+
+.support_icon {
+  background: url("support.svg") no-repeat center;
+  background-size: 70%;
+}
+
+.better_icon {
+  background: url("better.svg") no-repeat center;
+  background-size: 50%;
+}
+
+.why_header {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  height: 4rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  max-width: 200px;
+}
+
+.why_description {
+  font-size: 1rem;
+  max-width: 200px;
+  text-align: center;
+  color: rgb(102, 111, 116);
+}
+
+.testimonials {
+  width: 100vw;
+  display: flex;
+  color: white;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial_textbox {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.testimonial_textbox > * {
+  margin: 0 10vw;
+}
+
+.testimonial_textbox > h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.testimonial_textbox > h2 {
+  font-size: 1rem;
+}
+
+.testimonial_textbox > p {
+  margin-top: 10px;
+}
+
+.testimonial-image {
+  background: url("./grain_hands.png") center no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 50vw;
+}
+
+.prices_container {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
+
+.prices_card {
+  height: 100%;
+  width: 25%;
+  border: 2px solid green;
+}
+
+.prices_header {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sign-up {
+  background: url("farmer-in-field-touching-his-meat.png") no-repeat
+    center;
+  background-size: cover;
+  background-color: rgb(62, 147, 199);
+}
+
+.sign-up > .content {
+  margin-top: 0;
+  justify-content: unset;
+}
+
+.sign-up > .content > h2 {
+  margin-top: 3rem;
+  color: white;
+}
+
+.signup-input {
+  width: 250px;
+  height: 2rem;
+  margin: 15px;
+  font-size: 1.25rem;
+}
+
+#signup_description,
+#signup_title {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+#signup_title {
+  font-size: 2rem;
+}
+
+#signup_description {
+  font-size: 1.5rem;
+}
+
+.real-signup {
+  border: 0;
+  color: white;
+  background: rgb(40, 40, 40);
+  font-style: bold;
+  font-size: 1.25rem;
+  padding: 0;
+  height: 2.5rem;
+  width: 200px;
+}
+
+#team_subtitle,
+#team_description {
+  text-align: center;
+}
+
+#team_description {
+  color: rgb(102, 111, 116);
+  margin-top: 30px;
+}
+
+.member-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+
+.team-member {
+  border: 1px solid rgb(148, 148, 148);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#member_name1,
+#member_name2,
+#member_name3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+#member_occupation1,
+#member_occupation2,
+#member_occupation3 {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: rgb(102, 111, 116);
+}
+
+.member-photo {
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  width: 320px;
+  height: 270px;
+  border-radius: 2px;
+}
+
+#member-photo1 {
+  background: url("") no-repeat center;
+  background-size: auto 100%;
+}
+
+#member-photo2 {
+  background: url("ALFI_FF.jpg") no-repeat center;
+  background-size: auto 100%;
+}
+
+#member-photo3 {
+  background: url("ZALAN_FF.jpg") no-repeat center;
+  background-size: auto 100%;
+}
+
+
+footer {
+  margin: 0 20vw 0 10vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#contacts,
+#alzagro_footer,
+#social {
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  color: rgb(102, 111, 116);
+  margin-bottom: 200px;
+}
+
+.footer-column > a {
+  color: rgb(62, 147, 199);
+}
+
+#representer_title {
+  margin-top: 30px;
+}
+
+.szechenyi {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20vw;
+}
+
+.hiventures {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20vw;
+}
+
+.banner {
+  position: fixed;
+  bottom: 0;
+  background: black;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  z-index: 5;
+  display: none;
+}
+
+#banner-text {
+  color: white;
+  margin-right: 300px;
+}
+
+.cookies-button {
+  margin-right: 4rem;
+}
+
+.banner-content {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.accept {
+  padding: 8px;
+  border: 3px solid white;
+}
+
+#banner-read-more {
+  text-decoration: underline;
+}
+
+select {
+  width: 250px;
+  height: 2.5rem;
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.language-popup {
+  position: fixed;
+  z-index: 10;
+  right: 14px;
+  top: 60px;
+  background: rgb(40, 40, 40);
+  border: solid 2px white;
+  border-radius: 2px;
+}
+
+.language-popup > ul {
+  padding: 0;
+}
+
+.language-popup > * > li {
+  margin: 10px;
+  text-align: center;
+}

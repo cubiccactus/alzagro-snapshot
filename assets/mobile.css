@@ -1,0 +1,254 @@
+.content {
+  width: 90vw;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-left: 10vw;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#main_title, #main_title2 {
+  font-size: 1.5rem;
+}
+
+#alzagro_cropler {
+  margin-top: 100px;
+}
+
+#main_description {
+  width: 100%;
+  max-width: 300px;
+  font-size: 1rem;
+}
+
+.main-buttons {
+  flex-direction: column;
+}
+
+.main-buttons > * {
+  width: 80vw;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+  max-width: 400px;
+}
+
+.features_image {
+  display: none;
+}
+
+.features_table {
+  width: 100%;
+}
+
+.features_article {
+  margin-right: 30px;
+}
+
+.work_content {
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.work_container {
+  width: 100%;
+}
+
+.work_header {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  height: 3rem;
+}
+
+.work_article {
+  margin: 1rem 0;
+}
+
+.work_icon {
+  margin-top: 3rem;
+}
+
+
+.why_container {
+  flex-wrap: wrap;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.why_content {
+  height: auto;
+}
+
+.why_item {
+  width: 50%;
+  height: unset;
+}
+
+.testimonial-image {
+  display: none;
+}
+
+.testimonials {
+  background: url(./assets/grain_hands.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.testimonial_textbox {
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  padding: 40px 0;
+}
+
+.testimonials {
+  height: auto;
+}
+
+.prices_container {
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.prices_container > .why_item {
+  margin-bottom: 30px;
+}
+
+.why_item > .prices_header {
+  text-align: center;
+}
+
+.sign-up {
+  height: auto;
+}
+
+.content > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.member-container {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.team-member {
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+footer {
+  flex-direction: column;
+}
+
+.footer-column {
+  margin-bottom: 20px;
+}
+
+.szechenyi, .hiventures {
+  width: 200px;
+}
+
+#social {
+  display: none;
+}
+
+.desktop-header {
+  display: none;
+}
+
+.banner {
+  flex-direction: column;
+  height: auto;
+}
+
+#banner-text {
+  margin-right: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.cookies-button {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(40, 40, 40);
+  width: 100vw;
+  padding: 0;
+  height: 10vh;
+}
+
+.logo-wrapper, .options-wrapper {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.logo-image {
+  height: 5vh;
+  margin-left: 15px;
+}
+
+.hamburger {
+  height: 5vh;
+  width: 5vh;
+  margin-left: 35px;
+  font-size: 5vh;
+  padding-bottom: 2vh;
+}
+
+.menu-popup {
+  display: block;
+  padding-top: 7vh;
+  position: fixed;
+  right: -1px;
+  background: rgb(40, 40, 40);
+}
+
+.popup-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.popup-list > li {
+  margin: 20px 5px 20px 20px;
+}
+
+.popup-list > * > a {
+  font-size: 1.5rem;
+}
+
+.header-title-link {
+  color: white;
+}
+
+.language_button {
+  position: unset;
+}
+
+.language-popup {
+  right: 5vh;
+  margin-right: 35px;
+  top: 50px;
+}
